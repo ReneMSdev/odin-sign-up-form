@@ -25,7 +25,7 @@ body, html {
 .hero {
   width: 37vw;
   height: 100%;
-  background-image: url('/assets/images/leaves.jpg');
+  background-image: url('assets/images/leaves.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
