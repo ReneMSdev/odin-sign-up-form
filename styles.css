@@ -14,7 +14,7 @@
 
 body, html {
   height: 100%;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
 }
 
 .container {
@@ -36,7 +36,7 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 22%;
+  top: 20%;
   left: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
@@ -61,15 +61,13 @@ body, html {
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 63vw;
   background-color: #f5f5f5;
 }
 
 .text {
-  font-size: 1.2rem;
-  padding-left: 50px;
-  padding-bottom: 40px;
+  font-size: 1.1rem;
+  padding: 80px 0 40px 50px;
 }
 
 .text p {
@@ -111,10 +109,47 @@ label {
 
 input {
   height: 30px;
-  border: 1px solid rgb(167, 164, 164);
+  border: 1px solid #E5E7EB;
   border-radius: 5px;
+}
+
+.password:valid {
+  border: 1px solid rgb(21, 184, 21);
+}
+
+.password:invalid {
+  border: 1px solid red;
 }
 
 .bottom {
   padding: 40px 0 0 50px;
+}
+
+.create-account-btn {
+  background-color: #596D48;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+}
+
+.create-account-btn:hover {
+  background-color: #4c5d3d;
+}
+
+.bottom p {
+  font-size: 14px;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: bold;
+}
+
+.bottom a:hover {
+  color: #3c4a31;
 }
